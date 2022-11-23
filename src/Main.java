@@ -6,11 +6,7 @@ public class Main {
         int balance = amount + addingAmount;
         int bonus;
 
-        if (addingAmount >= -1000) {
-            bonus = (addingAmount / 100);
-        } else {
-            bonus = (addingAmount * 1);
-        }
+        bonus = (addingAmount / 100);
 
         System.out.println(balance);
         System.out.println("Итоговый бонус");
