@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Итоговый счет");
-        int amount = 1000;
+        int AvailableAmount = 1000;
         int addingAmount = 1100;
-        int balance = amount + addingAmount;
-        int bonus;
+        int balanceOfUser = AvailableAmount + addingAmount;
+        int NumberOfBonus;
 
-        bonus = (addingAmount / 100);
+        NumberOfBonus = (addingAmount / 100);
 
-        System.out.println(balance);
+        System.out.println(balanceOfUser);
         System.out.println("Итоговый бонус");
-        System.out.println(bonus);
+        System.out.println(NumberOfBonus);
 
 
     }
